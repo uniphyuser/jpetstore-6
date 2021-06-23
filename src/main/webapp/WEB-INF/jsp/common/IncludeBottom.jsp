@@ -21,13 +21,6 @@
 
 <div id="PoweredBy">&nbsp;<a href="http://www.mybatis.org">www.mybatis.org</a>
 </div>
-	<h3> Server Side IP Address </h3><br>
-<%@page import="java.net.InetAddress;" %>
-<%String ip = "";
-InetAddress inetAddress = InetAddress.getLocalHost();
-ip = inetAddress.getHostAddress();
-out.println("Server Host Name :: "+inetAddress.getHostName());%><br>
-<%out.println("Server IP Address :: "+ip);%>
 
 <div id="Banner"><c:if test="${sessionScope.accountBean != null }">
 	<c:if test="${sessionScope.accountBean.authenticated}">
