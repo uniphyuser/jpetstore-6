@@ -31,10 +31,10 @@
 <div id="SidebarContent"><stripes:link
 	beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
 	event="viewCategory">
-	<stripes:param name="categoryId" value="Fool" />
+	<stripes:param name="categoryId" value="Fish" />
 	<img src="../images/fish_icon.gif" />
 </stripes:link> <br />
-Saltwater, Freshwater <br />
+Saltwater, Freshwater, crustaceans <br />
 <stripes:link
 	beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
 	event="viewCategory">
